@@ -1,9 +1,12 @@
-var nom = prompt("Quel est votre nom ?");
-var prenom = prompt("Quel est votre prénom ?");
-var ville = prompt("Quelle ville habitez-vous ?");
+
+function afficher(){
+var nom = document.getElementById("nom").value;
+var prenom = document.getElementById("prenom").value;
+var ville = document.getElementById("ville").value;
 
 alert(
     "Nom : " + nom + "\n" +
     "Prénom : " + prenom + "\n" +
     "Ville : " + ville
 )
+}
