@@ -1,12 +1,12 @@
 
-function afficher(){
-var nom = document.getElementById("nom").value;
-var prenom = document.getElementById("prenom").value;
-var ville = document.getElementById("ville").value;
+function display(){
+var lastName = document.getElementById("lastName").value;
+var firstName = document.getElementById("firstName").value;
+var city = document.getElementById("city").value;
 
 alert(
-    "Nom : " + nom + "\n" +
-    "Prénom : " + prenom + "\n" +
-    "Ville : " + ville
+    "Nom : " + lastName + "\n" +
+    "Prénom : " + firstName + "\n" +
+    "Ville : " + city
 )
 }
